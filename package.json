@@ -55,9 +55,6 @@
   },
   "resolutions": {
     "react-error-overlay": "6.0.9"
-  },
-  "engines": {
-  "node": "14.x"
-}
-
+  }
+  
 }
