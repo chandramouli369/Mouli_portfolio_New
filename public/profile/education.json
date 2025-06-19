@@ -1,0 +1,22 @@
+{
+    "education":[
+        {
+            "title": "Jan 2024 - Dec 2025",
+            "cardTitle": "Masters, Computer Science",
+            "cardSubtitle":"University of Central Florida, Orlando, Florida, United States",
+            "cardDetailedText": "GPA - 3.89",
+            "icon" : {
+                "src": "images/education/lorem-ipsum.png"
+            }
+        },
+        {
+            "title": "Aug 2017 - Jun 2021",
+            "cardTitle": "Bachelors, Computer Science",
+            "cardSubtitle":"Anil Neerukonda Institute of Technology and Sciences, Visakhapatnam, India",
+            "cardDetailedText": "CGPA - 8.66/10",
+            "icon" : {
+                "src": "images/education/lorem-ipsum.png"
+            }
+        }
+    ]
+}

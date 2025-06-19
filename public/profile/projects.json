@@ -1,0 +1,122 @@
+{
+    "projects" : [
+        {
+            "image" : "images/projects/projectnetflix.png",
+            "title": "Netflix Replica",
+            "bodyText": "- A responsive web application replicating Netflix's user interface and functionality, built with React. It features a dynamic login/signup system, a visually appealing homepage, and a carousel of movie categories. The app integrates responsive design and mimics the user experience of Netflix, making it a perfect project to showcase front-end skills.t",
+            "links": [
+                {
+                    "text": "GitHub",
+                    "href": "https://github.com/chandramouli369/netflix-clone-moulithammineni369-"
+                },
+                {
+                    "text": "Live",
+                    "href": "https://moulit-react-clone.netlify.app/"
+                }
+            ],
+            "tags" : [
+                "React",
+                "Html",
+                "JavaScript",
+                "CSS",
+                "Firebase"
+
+            ]
+        },
+        {
+            "image" : "images/projects/ecart.png",
+            "title": "E-Cart",
+            "bodyText": "- E-Cart-React is a full-featured e-commerce web application designed to provide a seamless online shopping experience. Built using React, HTML, CSS, JavaScript, and MySQL, it allows users to browse a variety of products, add items to their cart, and proceed to checkout with a secure payment process. The platform supports user authentication, enabling customers to create accounts, log in, and track their order history. Additionally, the system includes an admin panel for managing products, orders, and user interactions. The backend, developed with Node.js and Express.js, connects to a MySQL database for efficient data storage and retrieval.",
+            "links": [
+                {
+                    "text": "GitHub",
+                    "href": "https://github.com/chandramouli369/E-Cart-React"
+                },
+                {
+                    "text": "Live",
+                    "href": "https://e-cart-react-jade.vercel.app/"
+                }
+            ],
+            "tags" : [
+                "React",
+                "BootStrap",
+                "Javascript",
+                "Html",
+                "CSS"
+            ]
+        },
+        {
+            "image" : "images/projects/swiggy.png",
+            "title": "Swiggy Food Application",
+            "bodyText": "- Swiggy Clone React is a food delivery web application that replicates the functionality of Swiggy, allowing users to browse restaurants, explore menus, and place food orders with real-time tracking. Developed using **React, HTML, CSS, JavaScript, and MySQL, the platform offers User authentication, enabling customers to create profiles, save favorite restaurants, and manage their orders. The app features a Search and filtering system help users find their preferred dishes and restaurants efficiently. Secure payment integration ensures smooth transactions, while **real-time order tracking** keeps customers updated on their delivery status. The backend, built with Node.js and Express.js, communicates with a MySQL database to handle user data, restaurant details, and order history.",
+            "links": [
+                {
+                    "text": "GitHub",
+                    "href": "https://github.com/chandramouli369/Swiggy_Clone_React"
+                },
+                
+                {
+                    "text": "Live",
+                    "href": "https://swiggy-clone-react-fspa.vercel.app/"
+                }
+            ],
+            "tags" : [
+                "Html",
+                "CSS",
+                "Javascript",
+                "React",
+                "Mysql"
+            ]
+        },
+        {
+            "title": "Training-and-project-management-system",
+            "bodyText": "This project involves training and project management which is an online web portal. In training sessions students get trained in their opted courses by professors and students who successfully completed their courses will get a certificate after the course period. The students who had given with certificate will only be provided with projects which were created by admin and there was a bidding system among projects which was done by the manager..",
+            "links": [
+                {
+                    "text": "GitHub",
+                    "href": "https://github.com/mayankagarwal09/SecureChatApp"
+                }
+            ],
+            "tags" : [
+                "React",
+                "Javascript",
+                "Html",
+                "CSS",
+                "PHP",
+                "MySQL"
+            ]
+        },
+        {
+            "title": "Food Ordering App",
+            "bodyText": "- FoodApp is a feature-rich food ordering application developed using Java and the Android SDK. It enables users to browse restaurants, explore menus, place food orders, and track deliveries in real-time. The app provides a seamless and intuitive user experience with an optimized UI for both smartphones and tablets..",
+            "links": [
+                {
+                    "text": "GitHub",
+                    "href": "https://github.com/chandramouli369/FoodApp-AndroidStudio"
+                }
+            ],
+            "tags" : [
+                "Android",
+                "Android SDK",
+                "Java"
+            ]
+        },
+        {
+            "image" : "images/projects/login.png",
+            "title": "Course Plan",
+            "bodyText": "- The Course Files System is a digital platform for faculty and administrators to manage course-related documents efficiently. It replaces paperwork by allowingfaculty to upload lesson plans, assignments, exams, and class details,  while administrators oversee faculty assignments, track uploads, and manage records. Accessible via desktop and mobile, the system ensures secure, organized, and easily maintainable course management, streamlining academic operations.",
+            "links": [
+                {
+                    "text": "GitHub",
+                    "href": "https://github.com/chandramouli369/courseplan"
+                }
+            ],
+            "tags" : [
+                "TypeScript",
+                "Angular 12",
+                "JavaScript"
+            ]
+        }
+     
+    ]
+}

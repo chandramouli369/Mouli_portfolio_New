@@ -1,0 +1,120 @@
+{
+  
+    "skills": [{
+     
+            "title": "Languages & Databases",
+            "items" : [
+     
+                {
+                    "icon": "images/skills/java.png",
+                    "title": "Java"
+                },
+                {
+                    "icon": "images/skills/letter-c.png",
+                    "title": "C++"
+                },
+                {
+                    "icon": "images/skills/letter-c.png",
+                    "title": "C"
+                },
+                 {
+                    "icon": "images/skills/css.png",
+                    "title": "CSS"
+                },
+                {
+                    "icon": "images/skills/html.png",
+                    "title": "HTML"
+                },
+                {
+                    "icon": "images/skills/php.png",
+                    "title": "PHP"
+                },
+                {
+                    "icon": "images/skills/js.png",
+                    "title": "JavaScript"
+                },
+                {
+                    "icon": "images/skills/python.png",
+                    "title": "Python"
+                },
+                {
+                    "icon": "images/skills/mysql.png",
+                    "title": "MySQL"
+                },
+                {
+                    "icon": "images/skills/postgre.png",
+                    "title": "Postgre"
+                },
+                 {
+                    "icon": "images/skills/firebase.png",
+                    "title": "firebase"
+                }
+        ]},
+        {
+            "title": "Frameworks & Technologies",
+            "items" : [
+                {
+                    "icon": "images/skills/Springboot.png",
+                    "title": "Springboot"
+                },
+                {
+                    "icon": "images/skills/springo.png",
+                    "title": "Spring"
+                },
+                {
+                    "icon": "images/skills/android_new.png",
+                    "title": "Android"
+                },
+                {
+                    "icon": "images/skills/kotlin.jpeg",
+                    "title": "Kotlin"
+                },
+                {
+                    "icon": "images/skills/react.png",
+                    "title": "React"
+                },
+                {
+                    "icon": "images/skills/nodejs.png",
+                    "title": "Nodejs"
+                },
+                {
+                    "icon": "images/skills/git.png",
+                    "title": "Git"
+                }
+            ]
+        },
+      
+        {
+            "title" : "Tools & Platforms",
+            "items": [
+                {
+                    "icon": "images/skills/android-studio.png",
+                    "title": "Android Studio"
+                },
+                {
+                    "icon": "images/skills/eclipse.png",
+                    "title": "Eclipse"
+                },
+                 {
+                    "icon": "images/skills/intellj.png",
+                    "title": "Intellij"
+                },
+                {
+                    "icon": "images/skills/jira.png",
+                    "title": "Jira"
+                },
+                {
+                    "icon": "images/skills/bitbucket.png",
+                    "title": "Bitbucket"
+                },
+                {
+                    "icon": "images/skills/docker.png",
+                    "title": "Docker"
+                },
+                {
+                    "icon": "images/skills/visual-studio.png",
+                    "title": "Visual Studio"
+                }
+            ]
+    }
+]}

@@ -1,0 +1,16 @@
+{
+    "social": [
+        {
+            "network" : "linkedin",
+            "href": "https://www.linkedin.com/in/tnchandramouli/"
+        },
+        {
+            "network" : "github",
+            "href": "https://github.com/chandramouli369"
+        },
+        {
+            "network" : "email",
+            "href": "tnchandramouli.24@gmail.com"
+        }
+    ]
+}
