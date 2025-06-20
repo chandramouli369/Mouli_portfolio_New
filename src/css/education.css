@@ -17,3 +17,19 @@
         width: 15% !important;
     }
 }
+
+.education-container {
+  width: 50vw;
+}
+
+@media (max-width: 1024px) {
+  .education-container {
+    width: 75vw;
+  }
+}
+
+@media (max-width: 768px) {
+  .education-container {
+    width: 90vw;
+  }
+}

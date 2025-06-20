@@ -1,11 +1,10 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import '../App.css';
+import '../css/App.css';
 
-function Header(props) {
-  const { title } = props;
-  return <div className="header">{title}</div>;
-}
+const Header = ({ title }) => (
+  <h1 className="header">{title}</h1>
+);
 
 Header.propTypes = {
   title: PropTypes.string.isRequired,

@@ -7,3 +7,25 @@
         margin-top: 10px !important;
     }
 }
+
+.experience-ul {
+  list-style-position: outside;
+  padding-left: 20px;
+}
+
+.experience-subtitle-container {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.experience-subtitle {
+  display: inline-block;
+}
+
+.experience-inline-child {
+  display: inline-block;
+}
+
+.experience-item {
+  margin-bottom: 10px;
+}

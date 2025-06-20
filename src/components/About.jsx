@@ -7,36 +7,6 @@ import Header from './Header';
 import endpoints from '../constants/endpoints';
 import FallbackSpinner from './FallbackSpinner';
 
-const styles = {
-  introSection: {
-    display: 'flex',
-    flexWrap: 'wrap',
-    alignItems: 'flex-start',
-    justifyContent: 'center',
-    gap: '40px',
-    marginTop: '40px',
-  },
-  introImageContainer: {
-    flex: '0 0 300px',
-    position: 'sticky',
-    top: '100px',
-  },
-  profileImage: {
-    width: '100%',
-    height: 'auto',
-    borderRadius: '10px',
-    objectFit: 'cover',
-    boxShadow: '0 4px 12px rgba(0,0,0,0.3)',
-  },
-  introTextContainer: {
-    flex: '1 1 500px',
-    whiteSpace: 'pre-wrap',
-    textAlign: 'left',
-    fontSize: '1.2em',
-    fontWeight: 500,
-  },
-};
-
 function About(props) {
   const { header } = props;
   const [data, setData] = useState(null);
@@ -57,15 +27,15 @@ function About(props) {
         <Container>
           {data ? (
             <Fade>
-              <div style={styles.introSection}>
-                <div style={styles.introImageContainer}>
+              <div className="about-section">
+                <div className="about-image-container">
                   <img
                     src={data?.imageSource}
                     alt="profile"
-                    style={styles.profileImage}
+                    className="about-profile-image"
                   />
                 </div>
-                <div style={styles.introTextContainer}>
+                <div className="about-text-container">
                   {parseIntro(data.about)}
                 </div>
               </div>

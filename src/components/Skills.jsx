@@ -7,24 +7,12 @@ import Header from './Header';
 import endpoints from '../constants/endpoints';
 import FallbackSpinner from './FallbackSpinner';
 
-const styles = {
-  iconStyle: {
-    height: 75,
-    width: 75,
-    margin: 10,
-    marginBottom: 0,
-  },
-  introTextContainer: {
-    whiteSpace: 'pre-wrap',
-  },
-};
-
 function Skills(props) {
   const { header } = props;
   const [data, setData] = useState(null);
 
   const renderSkillsIntro = (intro) => (
-    <h4 style={styles.introTextContainer}>
+    <h4 className="skills-intro-text">
       <ReactMarkdown children={intro} />
     </h4>
   );
@@ -51,9 +39,9 @@ function Skills(props) {
                   <br />
                   <h3>{rows.title}</h3>
                   {rows.items.map((item) => (
-                    <div key={item.title} style={{ display: 'inline-block' }}>
+                    <div key={item.title} className="skills-item">
                       <img
-                        style={styles.iconStyle}
+                        className="skills-icon"
                         src={item.icon}
                         alt={item.title}
                       />

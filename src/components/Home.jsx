@@ -5,22 +5,6 @@ import endpoints from '../constants/endpoints';
 import Social from './Social';
 import FallbackSpinner from './FallbackSpinner';
 
-const styles = {
-  nameStyle: {
-    fontSize: '5em',
-  },
-  inlineChild: {
-    display: 'inline-block',
-  },
-  mainContainer: {
-    height: '100%',
-    display: 'flex',
-    flexDirection: 'column',
-    justifyContent: 'center',
-    alignItems: 'center',
-  },
-};
-
 function Home() {
   const [data, setData] = useState(null);
 
@@ -35,19 +19,22 @@ function Home() {
 
   return data ? (
     <Fade>
-      <div style={styles.mainContainer}>
-        <h1 style={styles.nameStyle}>{data?.name}</h1>
+      <div className="home-container">
+        <h1 className="home-name">{data?.name}</h1>
         <div style={{ flexDirection: 'row' }}>
-          <h2 style={styles.inlineChild}>I&apos;m&nbsp;</h2>
-          <Typewriter
-            options={{
-              loop: true,
-              autoStart: true,
-              strings: data?.roles,
-            }}
-          />
+          <h2 className="home-intro">I&apos;m&nbsp;</h2>
+          <span className="typewriter-text">
+            <Typewriter
+              options={{
+                loop: true,
+                autoStart: true,
+                strings: data?.roles,
+              }}
+            />
+          </span>
         </div>
         <Social />
+        <a href="/projects" className="btn btn-gradient">View My Work</a>
       </div>
     </Fade>
   ) : <FallbackSpinner />;
